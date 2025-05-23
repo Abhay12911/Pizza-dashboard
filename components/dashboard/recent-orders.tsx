@@ -5,6 +5,7 @@ import { format } from "date-fns";
 
 interface RecentOrdersProps {
   orders: PizzaOrder[];
+  calssName?: string;
 }
 
 export function RecentOrders({ orders }: RecentOrdersProps) {

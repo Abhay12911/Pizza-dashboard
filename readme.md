@@ -23,7 +23,7 @@ This project demonstrates:
 ## 🚀 Live Demo
 
 🔗 [Live App](https://your-vercel-url.vercel.app)  
-📦 [GitHub Repository](https://github.com/yourusername/pizza-dashboard)
+📦 [GitHub Repository](https://github.com/Abhay12911/Pizza-dashboard)
 
 ---
 

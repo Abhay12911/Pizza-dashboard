@@ -7,6 +7,7 @@ import { useTheme } from "next-themes";
 
 interface OrdersChartProps {
   orders: PizzaOrder[];
+  className?: string;
 }
 
 export function OrdersChart({ orders }: OrdersChartProps) {
