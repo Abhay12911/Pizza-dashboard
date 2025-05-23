@@ -23,7 +23,7 @@ export default async function DashboardPage() {
       
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-7">
         <OrdersChart orders={mockPizzaOrders} className="md:col-span-4" />
-        <RecentOrders orders={mockPizzaOrders} className="md:col-span-3" />
+        <RecentOrders orders={mockPizzaOrders} calssName="md:col-span-3" />
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ interface OrdersChartProps {
   className?: string;
 }
 
-export function OrdersChart({ orders }: OrdersChartProps) {
+export function OrdersChart({ orders, className }: OrdersChartProps) {
   const { theme } = useTheme();
   const isDark = theme === "dark";
 
@@ -49,7 +49,7 @@ export function OrdersChart({ orders }: OrdersChartProps) {
   };
 
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
         <CardTitle>Orders by Status</CardTitle>
         <CardDescription>Distribution of orders by their current status</CardDescription>

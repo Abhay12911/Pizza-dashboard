@@ -8,7 +8,7 @@ interface RecentOrdersProps {
   calssName?: string;
 }
 
-export function RecentOrders({ orders }: RecentOrdersProps) {
+export function RecentOrders({ orders, calssName }: RecentOrdersProps) {
   // Get the 5 most recent orders
   const recentOrders = [...orders]
     .sort((a, b) => {
