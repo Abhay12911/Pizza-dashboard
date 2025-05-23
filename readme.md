@@ -66,3 +66,11 @@ This project demonstrates:
 ```bash
 git clone https://github.com/yourusername/pizza-dashboard.git
 cd pizza-dashboard
+
+To run this project locally, create a .env.local file in the root directory and add the following variables:
+
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your-random-secret
+
